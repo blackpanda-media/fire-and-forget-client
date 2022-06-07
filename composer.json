@@ -1,0 +1,26 @@
+{
+  "name": "blackpanda-media/fire-and-forget-client",
+  "description": "A small and PSR-7 compatible network library for fire and forget requests.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Black Panda Media",
+      "email": "info@blackpanda.media"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "psr/http-client": "^1.0.1",
+    "psr/http-factory": "^1.0.1",
+    "psr/http-message": "^1.0.1"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "BPM\\FireAndForgetClient\\": "src/"
+    }
+  }
+}
